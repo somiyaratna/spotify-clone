@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      href="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/logo.png?raw=true"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-search"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-option nav-option">
+              <img
+                src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/library_icon.png?raw=true"
+                alt="library_icon"
+              />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons"></div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy, we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some podcasts to follow.</p>
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <img
+              src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/backward_icon.png?raw=true"
+              alt="backward_icon"
+            />
+            <img
+              src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/forward_icon.png?raw=true"
+              alt="forward_icon"
+            />
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge nav-item">Explore Premium</button>
+            <button class="badge nav-item dark-badge">Install app</button>
+          </div>
+        </div>
+        <h2>Recently Played</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbHE6zQbeYChRBrWUFrdCUT3fGcK-8rrgG1XeYOv3x4MT-WKQoHjH2sRcQdAvD32u1R7gb3Q8WrLXHuDZqvw8d2zSBs7CnB5kahln4TeRTegGVvhfDHU-Ngo_kvZI1hfA0ZI0HWhl6n5I4CBkXAdtqbDfAwuAE04iK3_Trtzkr3_GOuyoxbMjgRUJ1/w320-h320/Linkin-Park-Lost.jpg"
+              alt="card3img"
+            />
+            <p class="card-title">Linkin Park</p>
+            <p class="card-info">
+              Meteora - LP 20<sup>th</sup> anniversary album
+            </p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://i.scdn.co/image/ab67616d0000b2733a376bd9b9b1f4b2686807db"
+              alt="card3img"
+            />
+            <p class="card-title">I.F.L.Y</p>
+            <p class="card-info">Bazzi - I Freaking Love You</p>
+          </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://upload.wikimedia.org/wikipedia/en/3/3d/Coldplay_-_A_Head_Full_of_Dreams.png"
+              alt="card2img"
+            />
+            <p class="card-title">Coldplay</p>
+            <p class="card-info">A Head Full of Dreams</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://upload.wikimedia.org/wikipedia/en/e/e5/Marshmello_and_Bastille_Happier.png"
+              alt="card3img"
+            />
+            <p class="card-title">Happier</p>
+            <p class="card-info">Marshmello</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://a10.gaanacdn.com/images/albums/39/1498939/crop_480x480_1498939.jpg"
+              alt="card4img"
+            />
+            <p class="card-title">The Local Train</p>
+            <p class="card-info">Choo Lo - A song for the broken hearts</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://images.genius.com/5e9a318b2419aa6f33dd0bbfe151c99a.500x500x1.jpg"
+              alt="card5img"
+            />
+            <p class="card-title">Ely Waves</p>
+            <p class="card-info">Fell in Love (Popular)</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://yt3.googleusercontent.com/ytc/AGIKgqM90eSOUfVpR4roBWo9tdD4nu0CSt-40zGyOj5FJQ=s900-c-k-c0x00ffffff-no-rj"
+              alt="card6img"
+            />
+            <p class="card-title">Kr$na</p>
+            <p class="card-info">Indian Hip-Hop</p>
+          </div>
+        </div>
+        <h2>Featured Charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://i1.sndcdn.com/artworks-000093682541-dudmgc-t500x500.jpg"
+              alt="card1img"
+            />
+            <p class="card-title">Avicii - The Nights</p>
+            <p class="card-info">Tribute to Avicii</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://cdns-images.dzcdn.net/images/cover/c462cdc1a782b6b85d0479ac94978bf0/500x500.jpg"
+              alt="card4img"
+            />
+            <p class="card-title">Public - Make You Mine</p>
+            <p class="card-info">Love is in the Air</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/card6img.jpeg?raw=true"
+              alt="card6img"
+            />
+            <p class="card-title">Top 50 India</p>
+            <p class="card-info">Based on your similar genres</p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/card1img.jpeg?raw=true"
+              alt="card1img"
+            />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-info">Based on your similar genres</p>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="music-player">
+        <div class="album">
+          <img
+            class="album-playing"
+            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/artistic-album-cover-design-template-d12ef0296af80b58363dc0deef077ecc_screen.jpg?ts=1561488440"
+            alt=""
+          />
+          <div class="curr-playing">
+            <p class="song-name" style="font-weight: 700">Pain</p>
+            <p class="artist">Ryan Jones</p>
+          </div>
+          <div class="album-icons">
+            <button><i class="fa-regular fa-heart"></i></button>
+            <button><i class="fa-regular fa-share-from-square"></i></button>
+          </div>
+        </div>
+        <div class="player">
+          <div class="player-controls">
+            <img
+              src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/player_icon1.png?raw=true"
+              alt=""
+              class="player-control-icon"
+            />
+            <img
+              src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/player_icon2.png?raw=true"
+              alt=""
+              class="player-control-icon"
+            />
+            <img
+              src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/player_icon3.png?raw=true"
+              alt=""
+              class="player-control-icon"
+              style="opacity: 1; height: 1.75rem"
+            />
+            <img
+              src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/player_icon4.png?raw=true"
+              alt=""
+              class="player-control-icon"
+            />
+            <img
+              src="https://github.com/apna-college/Delta/blob/main/CSS/Project/assets/player_icon5.png?raw=true"
+              alt=""
+              class="player-control-icon"
+            />
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">0:00</span>
+            <input
+              class="progress-bar"
+              type="range"
+              min="0"
+              max="100"
+              step="1"
+            />
+            <span class="tot-time">3:43</span>
+          </div>
+        </div>
+        <div class="controls">
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-solid fa-download"></i>
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-microphone"></i>
+          <i class="fa-solid fa-volume-high"></i>
+          <input type="range" class="progress-bar volume" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
